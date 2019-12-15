@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LocalHub</string>
+    <string name="title_home">Actions</string>
+    <string name="title_dashboard">Payments</string>
+    <string name="title_notifications">About Us</string>
+    <string name="login_req">Enter your mobile number</string>
+    <string name="login_desc">Let\'s get you started with an offline world with online capabilities</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="PhoneNo">+916394577290</string>
+    <string name="com_auth0_client_id">MdwdIdWJ8l0cy7Zizsbd7LQPSrJ4i7vf</string>
+    <string name="com_auth0_domain">localhub.au.auth0.com</string>
+    <string name="phone_no">+916262642222</string>
+    <string name="id">localhubo</string>
+</resources>
