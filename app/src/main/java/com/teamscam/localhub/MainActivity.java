@@ -37,36 +37,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations.
-
-//        BottomNavigationView navigationView = findViewById(R.id.nav_view);
-//        navView.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() {
-//            @Override
-//            public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-//
-//                Fragment selectedFragment=null;
-//                switch(menuItem.getItemId()){
-//                    case R.id.navigation_home:
-//                        selectedFragment = new HomeFragment();
-//                        break;
-//                    case R.id.navigation_dashboard:
-//                        selectedFragment = new DashboardFragment();
-//                        break;
-//                    case R.id.navigation_notifications:
-//                        selectedFragment = new NotificationsFragment();
-//                        break;
-//
-//                }
-//                assert selectedFragment != null;
-//                getSupportFragmentManager()
-//                        .beginTransaction()
-//                        .replace(R.id.nav_host_fragment, selectedFragment)
-//                        .addToBackStack(null)
-//                        .commit();
-//                return true;
-//            }
-//        });
 
         AppBarConfiguration appBarConfiguration = new AppBarConfiguration.Builder(
                 R.id.navigation_home, R.id.navigation_dashboard, R.id.navigation_notifications)
