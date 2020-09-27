@@ -75,7 +75,7 @@ public class HomeFragment extends Fragment {
                     String check=tv.getText().toString();
                     if(check.equalsIgnoreCase("Facebook")) {
                         FacebookFragment facebookFragment = new FacebookFragment();
-                        FragmentTransaction fragmentTransaction = Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction();
+                        FragmentTransaction fragmentTransaction = requireActivity().getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.nav_host_fragment, facebookFragment);
                         fragmentTransaction.addToBackStack(null);
                         fragmentTransaction.commit();
@@ -84,7 +84,7 @@ public class HomeFragment extends Fragment {
                     else if(check.equalsIgnoreCase("Twitter"))
                     {
                         TwitterFragment fragment = new TwitterFragment();
-                        FragmentTransaction fragmentTransaction = Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction();
+                        FragmentTransaction fragmentTransaction = requireActivity().getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.nav_host_fragment, fragment);
                         fragmentTransaction.addToBackStack(null);
                         fragmentTransaction.commit();
@@ -92,14 +92,14 @@ public class HomeFragment extends Fragment {
                     else if(check.equalsIgnoreCase("Gmail"))
                     {
                         Gmail fragment = new Gmail();
-                        FragmentTransaction fragmentTransaction = Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction();
+                        FragmentTransaction fragmentTransaction = requireActivity().getSupportFragmentManager().beginTransaction();
                         fragmentTransaction.replace(R.id.nav_host_fragment, fragment);
                         fragmentTransaction.addToBackStack(null);
                         fragmentTransaction.commit();
                     }
                     else if(check.equalsIgnoreCase("Reddit")){
                         RedditFragment fragment = new RedditFragment();
-                        Objects.requireNonNull(getActivity()).getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment, fragment).addToBackStack(null).commit();
+                        requireActivity().getSupportFragmentManager().beginTransaction().replace(R.id.nav_host_fragment, fragment).addToBackStack(null).commit();
                     }
                     /*
                     else if(check.equalsIgnoreCase("Paytm"))

@@ -84,7 +84,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/anuj" />
+                    app:srcCompat="@drawable/reddit" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -94,7 +94,7 @@
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/sf_pro_semibold"
                     android:gravity="center"
-                    android:text="Anuj Kapoor"
+                    android:text="Abhinav Gupta"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -148,7 +148,7 @@
                     app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toTopOf="parent"
-                    app:srcCompat="@drawable/animesh" />
+                    app:srcCompat="@drawable/ishan" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -158,7 +158,7 @@
                     android:layout_marginBottom="20dp"
                     android:fontFamily="@font/sf_pro_semibold"
                     android:gravity="center"
-                    android:text="Animesh Ashish"
+                    android:text="Ishan Gupta"
                     android:textColor="#000000"
                     android:textSize="20sp"
                     app:layout_constraintBottom_toBottomOf="parent"
@@ -179,6 +179,7 @@
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"
         android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/anuj">
@@ -242,6 +243,7 @@
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"
         android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ishan">
@@ -304,6 +306,7 @@
         android:focusable="true"
         android:foreground="?android:attr/selectableItemBackground"
         android:orientation="vertical"
+        android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/navdeep">
